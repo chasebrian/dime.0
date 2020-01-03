@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Big Shoulders Display', Helvetica, sans-serif;
+    font-size: 23px;
+    line-height: 1.6;
+}
+#showcase{
+    background-image: url('ocean.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+#showcase h1{
+    font-size: 50px; 
+}
+#showcase p{
+    font-size: 20px;
+    text-align: center;
+}
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 5px 9px;
+}
+#showcase .button:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+.section-a{
+    background-color: blanchedalmond;
+    padding: 20px;
+    text-align: center;
+}
+.section-b{
+    background-color: rgb(238, 215, 181);
+    padding: 20px;
+    text-align: center;
+}
+.section-c{
+    display: flex;
+    background-color: blanchedalmond;
+    padding: 20px;
+    text-align: center;
+}
+.box
